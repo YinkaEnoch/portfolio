@@ -1,0 +1,20 @@
+.logo {
+  max-width: 48px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition: text-decoration, opacity;
+  transition-duration: 0.2;
+  transition-timing-function: linear;
+}
+
+.link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.link.active {
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.container {
+  height: 100svh;
+  width: 100svw;
+  overflow: hidden;
+  background-image: url("../../../assets/purple_design_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formBody {
+  background-color: #eee;
+  padding: 3rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 6px #ccc;
+}
+
+/* <a href="https://www.freepik.com/free-psd/purple-design-background_1150238.htm#query=background%20image&position=25&from_view=search&track=ais&uuid=20d761c4-d141-451c-8208-dcdb56902be3">Image by ydlabs</a> on Freepik*/
