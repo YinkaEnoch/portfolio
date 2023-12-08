@@ -1,0 +1,7 @@
+.loginPanel {
+  background: linear-gradient(0deg, rgba(20, 19, 19, 0.7), rgba(7, 7, 7, 0.7)),
+    url("../../../assets/geometric_shape_background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

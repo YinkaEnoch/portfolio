@@ -6,10 +6,12 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/error/404";
 import LoginOne from "./pages/login/loginOne/LoginOne";
+import LoginTwo from "./pages/login/loginTwo/LoginTwo";
 
 const router = createBrowserRouter([
   { path: "/", element: <App />, errorElement: <ErrorPage /> },
   { path: "/login/one", element: <LoginOne /> },
+  { path: "login/two", element: <LoginTwo /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
